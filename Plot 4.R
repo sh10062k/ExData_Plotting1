@@ -23,7 +23,7 @@ lines(datetime, data$Sub_metering_3, col = "blue")
 #Third subplot
 plot(datetime, data$Voltage, ylab = "Voltage", type = "l")
 #Fourth subplot
-plot(datetime, data$Global_reactive_power, type = "l")
+plot(datetime, data$Global_reactive_power, type = "l", ylab = "Global_reactive_power")
 
 #Closing the graphics device
 dev.off()
