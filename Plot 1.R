@@ -5,6 +5,7 @@ data <- read.table("../Electricity Dataset/household_power_consumption.txt",
                    skip = 66637, nrows = 2880, sep = ";", na.strings = "?")
 
 #Opening the png file device
+#The default size of the png image in r is 480x480 pixels so no need to give extra attributes
 png(filename = "./Plot 1.png")
 
 #Creating the histogram with necessary attributes
